@@ -7,6 +7,14 @@ public class TesteContaCorrente {
         int operacao = 0;
         double valor = 0.0;
         String msg ="";
+        String menu = """
+                \nOperações
+                \n1 - Consulta saldo
+                2 - Receber valor
+                3 - Tranferir valor
+                4 - Sair
+                \nDigite a opção desejada:
+                """;
         Scanner leitura = new Scanner(System.in);
         MovimentacaoDeContaCorrente contaCorrente = new MovimentacaoDeContaCorrente();
         System.out.println("******************************************************************");
@@ -16,12 +24,7 @@ public class TesteContaCorrente {
         System.out.println("Saldo inicial: " + contaCorrente.getSaldo());
         System.out.println("\n******************************************************************");
         while (operacao!=4){
-            System.out.println("\nOperações");
-            System.out.println("\n1 - Consulta saldos");
-            System.out.println("2 - Receber valor");
-            System.out.println("3 - Transferir valor");
-            System.out.println("4 - Sair");
-            System.out.println("\nDigite a opção desejada:");
+            System.out.println(menu);
             operacao = leitura.nextInt();
             if (operacao == 1){
                 System.out.println("O saldo da conta é: " + contaCorrente.getSaldo());
