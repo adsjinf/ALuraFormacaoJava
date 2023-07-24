@@ -1,4 +1,4 @@
-## Pós-Graduação 04/2023-04/2024 = Ferramentas e Linguagens usadas no curso.
+## Aprenda Java com Orientação a Objetos.
 <div style="sisplay: inline_block">
     <img align="center" alt="MySql" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
     <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
