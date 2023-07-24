@@ -17,12 +17,16 @@ public class TesteContaCorrente {
                 """;
         Scanner leitura = new Scanner(System.in);
         MovimentacaoDeContaCorrente contaCorrente = new MovimentacaoDeContaCorrente();
-        System.out.println("******************************************************************");
-        System.out.println("Dados iniciais do cliente: ");
-        System.out.println("\nNome:          " + contaCorrente.getNome());
-        System.out.println("Tipo conta:    " + contaCorrente.getTipoConta());
-        System.out.println("Saldo inicial: " + contaCorrente.getSaldo());
-        System.out.println("\n******************************************************************");
+        String dadosDoCorrentista = """
+                ******************************************************************
+                \nDados iniciais do cliente
+                """;
+        dadosDoCorrentista = dadosDoCorrentista + "\nTipo conta   : " + contaCorrente.getTipoConta();
+        dadosDoCorrentista = dadosDoCorrentista + "\nTipo conta   : " + contaCorrente.getTipoConta();
+        dadosDoCorrentista = dadosDoCorrentista + "\nSaldo inicial: " + contaCorrente.getSaldo();
+        dadosDoCorrentista = dadosDoCorrentista + "\n******************************************************************";
+        System.out.println(dadosDoCorrentista);
+
         while (operacao!=4){
             System.out.println(menu);
             operacao = leitura.nextInt();
