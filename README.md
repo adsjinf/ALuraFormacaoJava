@@ -1,4 +1,4 @@
-## Aprenda Java com Orientação a Objetos.
+## Formação Java com Orientação a Objetos Alura.
 <div style="sisplay: inline_block">
     <img align="center" alt="MySql" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
     <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
