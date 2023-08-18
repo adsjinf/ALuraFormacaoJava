@@ -1,4 +1,4 @@
-package Modulo1_3;
+package modulo1_3;
 
 public class Condicional {
     public static void main(String[] args) {
